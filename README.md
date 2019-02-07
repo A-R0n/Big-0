@@ -4,20 +4,20 @@
 
 > Time Complexity
 
-- the amount of time it takes to parse through data will effect the runtime of the program.
+    --the amount of time it takes to parse through data will effect the runtime of the program.
 
-  -- O(1) is constant runtime. As the data gets bigger. The amount of time it takes to retrieve it is the exact same. For example, delivering data over an airplane.
-  -- O(n) is Linear runtime. It will eventually be faster than a constant runtime.
+    -- O(1) is constant runtime. As the data gets bigger. The amount of time it takes to retrieve it is the exact same. For example, delivering data over an airplane.
+    -- O(n) is Linear runtime. It will eventually be faster than a constant runtime.
 
 > Space Complexity
 
-- when you have a two dimensional array of size nxn, this will require O(n^2)
+    --when you have a two dimensional array of size nxn, this will require O(n^2)
 
-  -- O(n^2) is quadratic runtime. The program gets a exponentially slower when the dataset gets bigger.
+    -- O(n^2) is quadratic runtime. The program gets a exponentially slower when the dataset gets bigger.
 
 > Drop the Constants
 
-- Big O just describes the rate of increase. So you find the derivative of the function to get the runtime. O(n) is not always better than 0(n^2)
+    -- Big O just describes the rate of increase. So you find the derivative of the function to get the runtime. O(n) is not always better than 0(n^2)
 
 > Drop The Non-Dominant Terms
 
