@@ -11,6 +11,18 @@
 
 > Space Complexity
 
-- when you have a two dimensional array of size nxn, this will require O(n*2)
+- when you have a two dimensional array of size nxn, this will require O(n^2)
 
-  -- O(n*2) is quadratic runtime. The program gets a exponentially slower when the dataset gets bigger.
+  -- O(n^2) is quadratic runtime. The program gets a exponentially slower when the dataset gets bigger.
+
+> Drop the Constants
+
+- Big O just describes the rate of increase. So you find the derivative of the function to get the runtime. O(n) is not always better than 0(n^2)
+
+> Drop The Non-Dominant Terms
+
+    -- O(N^2 + N) becomes O(N^2)
+    -- O(N + log N) becomes O(N)
+    -- O(5*2^n + 1000N^100) becomes O(2^n)
+
+
