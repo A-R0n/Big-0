@@ -28,3 +28,7 @@
 > Multi-Part Algorithms: Add vs Mulitply
 
     -- You multiply the run times when for loops are nested and add them otherwise.
+    
+> Amortized Time
+
+    -- takes into account the runtime will change complexity when inserting new elements. When new insertions are made, the runtime is O(n) but most of the period will be faster -> O(1).
