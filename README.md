@@ -25,4 +25,6 @@
     -- O(N + log N) becomes O(N)
     -- O(5*2^n + 1000N^100) becomes O(2^n)
 
+> Multi-Part Algorithms: Add vs Mulitply
 
+    -- You multiply the run times when for loops are nested and add them otherwise.
