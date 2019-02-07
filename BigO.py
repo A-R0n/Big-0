@@ -18,6 +18,6 @@ def quadratic_complexity(treeFacts):
             if purchase[1] == 1:
                 receipt = purchase[0]
             if receipt == 'oak':
-            print(receipt)
+                print(receipt)
         
 
