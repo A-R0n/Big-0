@@ -2,6 +2,9 @@
 
 ##### Big O is the language and metric we use to describe the efficiency of algorithms. Not understanding it can really hurt you in developing an algorithm. You will not be able to discern whether your algorithm is getting faster or slower. Yikes.
 
+![Image of Graph]
+(https://cdn-images-1.medium.com/max/1600/1*U4dZWeXgNNrYaedRCuzTIg.png)
+
 > Time Complexity
 
     --the amount of time it takes to parse through data will effect the runtime of the program.
@@ -28,7 +31,11 @@
 > Multi-Part Algorithms: Add vs Mulitply
 
     -- You multiply the run times when for loops are nested and add them otherwise.
-    
+
 > Amortized Time
 
     -- takes into account the runtime will change complexity when inserting new elements. When new insertions are made, the runtime is O(n) but most of the period will be faster -> O(1).
+
+> Log N Runtimes
+
+    -- A binary search in a sorted array. You compare x to the midpoint and sort through the left if x is smaller or right if x is bigger.
