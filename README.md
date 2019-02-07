@@ -11,6 +11,6 @@
 
 > Space Complexity
 
-- when you have a two dimensional array of size nxn, this will require O(n2)
+- when you have a two dimensional array of size nxn, this will require O(n*2)
 
-  -- O(n2) is quadratic runtime. The program gets a exponentially slower when the dataset gets bigger.
+  -- O(n*2) is quadratic runtime. The program gets a exponentially slower when the dataset gets bigger.
